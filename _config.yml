@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: https://sikhs.github.io
+baseurl: /
+assets: /assets
+title: Sikhs Who Code
+author: Akaalpurakh
+description: Let's code for humanity!
+avatar: profile.png
+email: manjindersingh550.ms@gmail.com
+facebook: sikhswc
+twitter: sikhswc
+instagram: sikhswc
+mobile: 8567075678  #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+#disqus: username
+
+
+# needed for travis-ci build
+exclude: [vendor]
